@@ -1,0 +1,21 @@
+{
+  "name": "haxejs-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "haxejs-test": "main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "haxe compile.hxml && webpack",
+    "serve": "http-server ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "three.js": "^0.77.1",
+    "webpack": "^3.8.1"
+  }
+}

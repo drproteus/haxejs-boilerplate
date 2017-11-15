@@ -1,0 +1,6 @@
+-js hxtmp/main.js
+-cp "./src"
+-main Main
+-D js-flatten
+-dce full
+-lib threejs
