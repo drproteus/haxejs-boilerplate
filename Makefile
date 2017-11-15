@@ -6,3 +6,6 @@ main:
 
 serve:
 	http-server build/.
+
+clean:
+	rm -rf build
