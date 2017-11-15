@@ -8,8 +8,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "haxe compile.hxml && webpack",
-    "serve": "http-server ."
   },
   "author": "",
   "license": "ISC",

@@ -1,7 +1,8 @@
 all: main
 
 main:
-	npm run build
+	haxe compile.hxml
+	webpack
 	cp bin/index.html build/index.html
 
 serve:
