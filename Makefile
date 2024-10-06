@@ -3,10 +3,10 @@ all: main
 main:
 	haxe compile.hxml
 	webpack
-	cp bin/index.html build/index.html
+	cp bin/index.html dist/build/index.html
 
 serve:
-	http-server build/.
+	http-server dist/build/.
 
 clean:
 	rm -rf build

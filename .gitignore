@@ -1,9 +1,6 @@
-node_modules/
-node_module/*
-.vscode/
-.vscode/*
 .DS_STORE
+node_modules/
+.vscode/
 build/
-build/*
-hxtmp
-hxtmp/*
+hxtmp/
+dist/
